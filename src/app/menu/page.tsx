@@ -8,7 +8,7 @@ import PizzaCard from '../../../components/PizzaCard';
 
 
 
-const URL = "/api/pizza"
+const URL = "https://mohamed-zarzar.github.io/Pizza-Shop/api/pizza"
 
 
 const Menu = () => {
