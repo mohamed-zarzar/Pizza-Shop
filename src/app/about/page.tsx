@@ -32,8 +32,6 @@ const cardArr : AboutCardType[] = [
 ]
 
 function AboutCard (props:AboutCardType) {
-    const handelClick = () => {
-    }
     return (
         <Box sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",backgroundColor:"white",borderRadius:"5px",boxShadow:3,padding:"15px",margin:"5px"}}>
             <Image src={props.img} alt="" style={{width:"200px",height:"200px"}} />
