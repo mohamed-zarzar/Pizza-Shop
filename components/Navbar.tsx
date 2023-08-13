@@ -117,7 +117,9 @@ const Navbar = () => {
                         </IconButton>
                         {/* <PersonIcon sx={{color:"#666",m:"0 4px"}}/> */}
                         <IconButton sx={{color:"#666",m:"0 4px",display:"flex",justifyContent:"center",alignItems:"center"}} onClick={()=>dispatch(changeOpen())}>
-                            <StoreIcon sx={{color:"#666",m:"0 4px"}}/>
+                            <Badge badgeContent={myAllOrder.length} color='primary'>
+                                <StoreIcon sx={{color:"#666",m:"0 4px"}}/>
+                            </Badge>
                         </IconButton>
                         <IconButton sx={{color:"#666",m:"0 4px",display:"flex",p:"0",justifyContent:"center",alignItems:"center"}} onClick={()=>setOpenDrawerOrder(!openDrawerOrder)}>
                             <Badge badgeContent={myAllPizza.length} color='primary'>
